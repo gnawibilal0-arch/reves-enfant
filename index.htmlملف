@@ -1,0 +1,55 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rêves d’Enfant</title>
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; background-color: #fdf6f9; color: #333; }
+    header { background: linear-gradient(90deg, #a1c4fd, #c2e9fb); text-align: center; padding: 60px 20px; }
+    header h1 { font-size: 3em; color: #fff; margin: 0; }
+    header p { font-size: 1.2em; color: #fff; margin-top: 10px; }
+    section { padding: 40px 20px; max-width: 900px; margin: auto; text-align: center; }
+    .services { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px; }
+    .service-card { background: #fff; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 20px; }
+    .service-card img { width: 100%; border-radius: 15px; }
+    .whatsapp-btn { display: inline-block; margin-top: 30px; padding: 15px 25px; background-color: #25D366; color: white; font-size: 1.2em; text-decoration: none; border-radius: 30px; transition: 0.3s; }
+    .whatsapp-btn:hover { background-color: #1ebe57; }
+    footer { background: #fafafa; text-align: center; padding: 20px; font-size: 0.9em; color: #777; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rêves d’Enfant</h1>
+    <p>حوّل صور أطفالك إلى رسومات ديزني ساحرة ✨</p>
+  </header>
+
+  <section>
+    <h2>✨ من نحن؟</h2>
+    <p>في Rêves d’Enfant، نحوّل لحظات الطفولة الثمينة إلى لوحات ساحرة بأسلوب ديزني، لتظل ذكريات خالدة ❤️</p>
+  </section>
+
+  <section>
+    <h2>🎨 خدماتنا</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="https://via.placeholder.com/400x250.png?text=قبل" alt="Avant">
+        <p>📷 صورة طفلك الحقيقية</p>
+      </div>
+      <div class="service-card">
+        <img src="https://via.placeholder.com/400x250.png?text=بعد" alt="Apres">
+        <p>🎨 نحولها لرسمة ديزني ساحرة</p>
+      </div>
+    </div>
+    <a href="https://wa.me/212623160213" class="whatsapp-btn" target="_blank">راسلنا على واتساب</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Rêves d’Enfant - كل الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
+```
